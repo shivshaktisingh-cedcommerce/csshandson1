@@ -1,6 +1,9 @@
 .red-text {
     color:red;
 }
+h2{
+    font-family:lobster;
+}
 p {
     font-size:16px;
     font-family:monospace;
