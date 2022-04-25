@@ -7,7 +7,7 @@ body {
     color: orange;
   }
   .pink-text {
-    color: pink;
+    color: pink !important;
   }
   .blue-text {
     color: blue;
