@@ -2,7 +2,7 @@
     color:red;
 }
 h2{
-    font-family:lobster;
+    font-family:lobster,monospace;
 }
 p {
     font-size:16px;
