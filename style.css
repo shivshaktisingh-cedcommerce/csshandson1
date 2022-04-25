@@ -1,30 +1,28 @@
-.red-text {
-    color: red;
-  }
-  [type='checkbox'] {
-    margin: 10px 0px 15px 0px;
+.injected-text {
+    margin-bottom: -25px;
+    text-align: center;
   }
 
-  h2 {
-    font-family: Lobster, monospace;
-  }
-
-  p {
-    font-size: 16px;
-    font-family: monospace;
-  }
-
-  .thick-green-border {
-    border-color: green;
-    border-width: 10px;
+  .box {
     border-style: solid;
-    border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
   }
 
-  .smaller-image {
-    width: 100px;
+  .yellow-box {
+    background-color: yellow;
+    padding: 20px 40px 20px 40px;
   }
 
-  .silver-background {
-    background-color: silver;
+  .red-box {
+    background-color: red;
+    margin: 20px 40px 20px 40px;
+    padding:1.5em;
+
+  }
+
+  .green-box {
+    background-color: green;
+    margin: 20px 40px 20px 40px;
   }
