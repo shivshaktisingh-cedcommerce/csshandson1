@@ -1,25 +1,28 @@
-.red-text {
-    color:red;
-}
-#cat-photo-form{
-    background-color:green;
-}
-.silver-background{
-    background-color:silver;
-}
-.thick-green-border{
-    border-color: green;
-    border-width: 10px;
+.injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
     border-style: solid;
-    border-radius:50%;
-}
-.smaller-image {
-    width:100px;
-}
-h2{
-    font-family:lobster,monospace;
-}
-p {
-    font-size:16px;
-    font-family:monospace;
-}
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+  }
