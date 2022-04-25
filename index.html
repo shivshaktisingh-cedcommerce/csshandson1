@@ -1,57 +1,31 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      ul{
-        text-align:left;
-        padding-left: 2%;
-      }
-      .new {
-        width:48%;
-        float:right;
-        text-align:justify;
-        
-        
+<h2 style="color:red;">CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
 
-      }
-      .new1{
-        width:48%;
-        float:right;
-        padding-right: 30px;
-        text-align:justify;
-      }
-    </style>
-  <title>The best page ever</title>
-  </head>
-  <body>
-    <div >
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <br>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <br>
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
     <ul>
-      <li>Lorem Ipsum is simply dummy text of the printing</li>
-      <br>
-      <li>Lorem Ipsum is simply dummy text of the printing</li>
-      <li>Lorem Ipsum is simply dummy text of the printing</li>
-      <li>Lorem Ipsum is simply dummy text of the printing</li>
-      <li>Lorem Ipsum is simply dummy text of the printing</li>
-      <br>
-      <li>Lorem Ipsum is simply dummy text of the printing</li>
-      <li>Lorem Ipsum is simply dummy text of the printing</li>
-      <br>
-      <li>Lorem Ipsum is simply dummy text of the printing</li>
-      <li>Lorem Ipsum is simply dummy text of the printing</li>
-      <li>Lorem Ipsum is simply dummy text of the printing</li>
-      <li>Lorem Ipsum is simply dummy text of the printing</li>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
     </ul>
-  
-  <div class="new">
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </div>
-  <div class="new1">
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </div>
-    </div>
-  </body>
-</html>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
