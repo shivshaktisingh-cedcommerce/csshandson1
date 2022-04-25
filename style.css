@@ -1,3 +1,12 @@
-body {
-    background-color: #000000;
+.red-text {
+    color: #ff0000;
+  }
+  .green-text {
+    color: #00ff00;
+  }
+  .dodger-blue-text {
+    color: #1e90ff;
+  }
+  .orange-text {
+    color: #ffa500;
   }
