@@ -1,6 +1,9 @@
 .red-text {
     color:red;
 }
+.silver-background{
+    background-color:silver;
+}
 .thick-green-border{
     border-color: green;
     border-width: 10px;
