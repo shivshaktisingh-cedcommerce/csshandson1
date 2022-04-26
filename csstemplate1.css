@@ -1,98 +1,172 @@
 
 .outer{
-       
-       width:100%;
-       height:600px;
-
-
-       }
-.headr{
-       width:100%;
-       height:40px;
-       background-color:powderblue;
-       
-      }
-
-
-
-
-.three{
-      width:60%;
-      height:500px;
-      float:left;
-      }
-.four{
-     width:40%;
-     height:500px;
-     float:left;
-     background-color:lightgrey;
-      }
-.divfooter {
-     
-     text-align: right;
-     background: gray;
-     color: black;
-     height:35px;
-     float:right;
-     width:100%;
-     }
-
-.para{
-      
-     width:90%; 
-     font-size:12px;
-     padding:15px;
-    }
-.copyright{
-      padding-right:5px;
-     }
-.bar{
+    background-color:white;
+    height:1000px;
     width:100%;
+}
+
+.navigation{
+    background-color:powderblue;
+    width:100%;
+    height:40px;
+    text-align:right;
+
+   
+}
+.gfg{
+    margin-left:10px;
+
     }
+li {
+    display:inline;
+    padding-top:10px;
+    padding-left:10px;
+}
+.logo{
+    background-color:green;
+    height:50px;
+    width:100%;
+    margin-top:-20px;
+}
+#subscribe{
+    margin-left:150px;
+    padding-top:10px;
+}
+#text{
+    margin-left:150px;
+    margin-top:10px;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    
+  }
+#log{
+    padding-left:10px;
+}
+p{
+    width:150px;
+}
+#ecom{
+    padding:10px;
+}
+#pcom{
+    padding:10px;
+}
 
-#hd{ 
-     padding:10px;
-    }
 
-#pghead{
-       color:blue; 
-       padding:15px;
-       
-       }
-#aside{
-       color:blue;
-       padding:10px;
-       
-      }
-#asidepara{
-      padding :10px;
-      }
+.one{
+    background-color:grey;
+    height:300px;
+    width:100%;
+    margin-top:-20px;
+}
+
+.two{
+    background-color:lightslategray;
+    height:400px;
+    width:100%;
+}
+.bb1{
+    background-color:lightgray;
+    float:left;
+    height:350px;
+    width:25%;
+    margin-top:20px;
+    
+    margin-left:49px;
+}
+.bb2{
+    background-color:lightgray;
+    float:left;
+    height:350px;
+    width:25%;
+    
+    margin-left:49px;
+    margin-top:20px;
+
+}
+h3{
+    padding-left:10px;
+    text-align:center;
+    padding-top:4px;
+}
+.p1{
+    width:70%;
+    font-size:10px;
+    padding-left:10px;
+}
+a:hover, a:active {
+    background-color: red;
+  }
+.bb3{
+    background-color:lightgray;
+    float:left;
+    height:350px;
+    width:25%;
+    
+    margin-left:49px;
+    margin-top:20px;
+
+}
 
 
+.box1{
+    background-color:lightsteelblue;
+    float:left;
+    height:200px;
+    width:100%;
+   
+    
+}
+.box2{
+    background-color:red;
+    float:left;
+    height:200px;
+    width:100%;
+   
+    
+}
+.box3{
+    background-color:brown;
+    float:left;
+    height:200px;
+    width:100%;
+    
+   
+}
+.footer{
+    margin-top:-20px;
+    background-color:aqua;
+    height:40px;
+    width:100%;
+}
 
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-      }
-      
-    li {
-        float: left;
-        border-right:1px solid white;
-      }
-      
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-      
-    li a:hover {
-        background-color: green;
-      }
 
+.copyright{
+    width:50%;
+    height:40px;
+    background-color:cornflowerblue;
+    float:left;
+}
+.cedcoss{
+    width:50%;
+    height:40px;
+    background-color:cornflowerblue;
+    float:left;
+}
+#ced{
+    margin-left:300px;
+   
+}
+#copy1{
+    margin-left:10px;
+}
 
